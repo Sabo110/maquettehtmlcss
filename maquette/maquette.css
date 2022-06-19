@@ -1,6 +1,9 @@
 body{
     margin: 0;
     background-color: rgba(161, 156, 156,0.1);
+    font-family: 'Inter';
+    font-style: normal;
+
 }
 *{
     box-sizing: border-box;
@@ -9,6 +12,8 @@ nav{
    padding-bottom: 29px;
    box-shadow: 0 1px 8px black;
    background-color: white;
+   font-size: 18px;
+   font-family: 'inter';
 }
 .divlogo{
     display: flex;
@@ -35,9 +40,7 @@ nav{
     display: flex;
     align-items: center;
 }
-.enf1 p{
-    
-}
+
 .enf2{
     width: 16%;
     background-color: rgba(10, 94, 10, 0.8);
@@ -111,7 +114,28 @@ nav{
 li{
     list-style: none;
 }
-.ul1 >li > a{
+.bg2{
+    display: block;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.bg2:hover{
+    color: black;
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+/*.ul1 >li > a{
     
     display: block;
     
@@ -132,7 +156,7 @@ li{
     background-color: white;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
-}
+}*/
 nav .divmenu>ul>li:hover ul{
    visibility: visible; 
 }
@@ -163,7 +187,7 @@ nav .divmenu>ul>li:hover ul{
     height: 100vh;
     
     box-sizing: border-box;
-    background-color: white;
+    background-color: rgba(245, 216, 216, 0.1);
 }
 .section2{
     width: 83%;
@@ -209,6 +233,7 @@ input{
 }
 table{
     width: 100%;
+    height: 350px;
     border-collapse: collapse;
     margin-top: 50px;
 }
@@ -217,9 +242,10 @@ table{
     border: 1px solid white;
     margin-top: 10px;
     border-radius: 10px;
+    height: 400px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
 }
-
-
 .piedsect2{
     position: absolute;
     bottom: 0;
@@ -230,7 +256,6 @@ table{
     
     display: flex;
     justify-content: flex-end;
-    
 }
 .enfpied{
  
@@ -306,7 +331,13 @@ h1{
     font-size: 21px;
 }
 #der{
-    box-shadow: -1px 0px 9px rgb(173, 171, 171);
+    box-shadow: -1px 5px 9px rgb(173, 171, 171);
     height: 100vh;
-}
     
+}
+.bg{
+    color: black;
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+} 
